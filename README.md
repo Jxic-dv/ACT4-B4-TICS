@@ -80,6 +80,29 @@ npm run lint
 4. Corrige el error, vuelve a hacer `git add .` y el commit se realiza sin
    problema.
 
+## Capturas de pantalla
+
+### Instalación de dependencias con pnpm
+
+**Instalación de Husky**
+![Instalación de Husky con pnpm add -D husky](screenshots/01-instalar-husky.png)
+
+**Instalación de ESLint**
+![Instalación de ESLint con pnpm add -D eslint](screenshots/02-instalar-eslint.png)
+
+**Inicialización de Husky**
+![Ejecución de pnpm dlx husky init](screenshots/03-husky-init.png)
+
+### Estructura del proyecto
+
+![Estructura de archivos y carpetas del proyecto en VSC](screenshots/04-estructura-proyecto.png)
+
+![Vista de la carpeta .husky con el pre-commit y node_modules](screenshots/05-estructura-proyecto-2.png)
+
+### Ejecución de ESLint
+
+![Ejecución de pnpm exec eslint .](screenshots/06-eslint-ejecutado.png)
+
 ## Notas
 
 - API pública utilizada: [Fake Store API](https://fakestoreapi.com/products).
